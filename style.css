@@ -1,0 +1,57 @@
+#Scoreboard
+{
+    font-size: 20;
+    margin: left;
+    font-weight: bolder;
+}
+
+#Time
+{
+ font-size: 20;
+ margin: left;
+ font-weight: bolder;
+
+}
+
+#Drawn
+{
+    font-size: 30;
+    font-weight: bolder;
+}
+
+p
+{
+    font-size: 25;
+    font-weight: bold;
+}
+
+h1
+{
+    font-size: 40;
+    font-weight: bolder;
+}
+
+canvas
+{
+    border:5px solid rgba(245, 245, 245, 0.69);
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 5s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px rgb(172, 255, 28);}
+    to {box-shadow: 1px 1px 38px rgb(48, 183, 255);}
+}
+
+#show_sketch
+{
+    float:right;
+}
+
+body
+{
+    background-color: lightgoldenrodyellow;
+}
